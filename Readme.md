@@ -1,5 +1,8 @@
 # SPIDAM Project for Computation Problem Solving in Python
 
+---
+[Joshua Gottus]('https://www.github.com/jr-cho/') and [Natasha Linares]('https://www.github.com/NatashaL2191')
+---
 
 ## Description
 Student groups will create a comprehensive interactive data analysis and modeling platform that enables users to seamlessly import, clean, visualize, analyze, and model data using scientific calculations and data visualization tools.
