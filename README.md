@@ -1,6 +1,7 @@
 # SPIDAM Project for Computation Problem Solving in Python
 
-[Joshua Gottus](https://www.github.com/jr-cho/) and [Natasha Linares](https://www.github.com/NatashaL2191)
+- [Joshua Gottus](https://www.github.com/jr-cho/)
+- [Natasha Linares](https://www.github.com/NatashaL2191)
 
 
 ## Description
