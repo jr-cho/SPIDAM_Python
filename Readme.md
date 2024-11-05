@@ -17,5 +17,19 @@ The platform will tackle the problem of voice intelligibility in enclosed spaces
 ## Usage
 
 
+## Tree
+SPIDAM
+    ├── Readme.md
+    ├── requirements.txt
+    ├── setup.py
+    └── src
+        ├── file_utils.py
+        ├── gui.py
+        ├── __init__.py
+        ├── main.py
+        └── plot.py
+
 ## License
 This project is licensed under the MIT license.
+
+
