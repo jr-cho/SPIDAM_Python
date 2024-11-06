@@ -31,9 +31,9 @@ SPIDAM
     ├── requirements.txt
     ├── setup.py
     └── src
+        ├── __init__.py
         ├── file_utils.py
         ├── gui.py
-        ├── __init__.py
         ├── main.py
         └── plot.py
 ```
