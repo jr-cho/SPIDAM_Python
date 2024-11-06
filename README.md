@@ -2,6 +2,7 @@
 
 - [Joshua Gottus](https://www.github.com/jr-cho/)
 - [Natasha Linares](https://www.github.com/NatashaL2191)
+- [Richard Ruby](https://github.com/rboy2005)
 
 
 ## Description
