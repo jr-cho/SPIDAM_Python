@@ -27,9 +27,18 @@ def open_file():
     else:
         file_lbl.config(text = "Incorrect File Type or No File Selected")
 #creating a function to display the plot when the plot button is clicked
-
+def plot():
+    #using text variables to check if the function works as intended
+    #in the final version, fig will equal a function from plot.py
+    #fig is equal to the data
+    fig, ax = plt.subplots()
+    ax.plot([1,2,3,4],[1,4,9,16])
+    #creating a canvas for the plot
+    canvas = FigureCanvasTkAgg(fig, master=frame)
+    canvas.draw()
+    canvas.get_tk_widget().pack(side=TOP, fill=BOTH, expand=1)
 #creating buttons
-plot_btn = Button(root, text = "Show Plot")
+plot_btn = Button(root, text = "Show Plot", command = plot)
 plot_btn.place(x = 0, y = 60)
 file_btn = Button(root, text = "Import File",command = open_file)
 file_btn.place(x = 0, y = 30)
