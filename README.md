@@ -16,6 +16,8 @@ The platform will tackle the problem of voice intelligibility in enclosed spaces
 ## Installation
 ```
 git clone https://github.com/jr-cho/SPIDAM_Python.git
+
+pip install -r requirements.txt
 ```
 
 ## Usage
