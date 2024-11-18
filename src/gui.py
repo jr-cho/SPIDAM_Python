@@ -23,6 +23,9 @@ file_lbl.place(x=100,y=31)
 #creating a function to display the plot when the plot button is clicked
 
 #creating buttons
-
+plot_btn = Button(root, text = "Show Plot")
+plot_btn.place(x = 0, y = 60)
+file_btn = Button(root, text = "Import File")
+file_btn.place(x = 0, y = 30)
 #running the GUI until the user closes it
 root.mainloop()
