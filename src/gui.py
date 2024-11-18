@@ -19,13 +19,19 @@ first_lbl.grid(row = 0, column = 0)
 file_lbl = Label(root, text = "Please upload a .mov or .wav file")
 file_lbl.place(x=100,y=31)
 #creating a function to intake a file that is either a .mov or .wav
-
+def open_file():
+    file = filedialog.askopenfilename(filetypes = [('Mov Files', '*.mov'),('Wav Files', '*.wav'),('All Files', '*.*')])
+    if file:
+        file_lbl.config(text = "File Successfully obtained")
+        file.close()
+    else:
+        file_lbl.config(text = "Incorrect File Type or No File Selected")
 #creating a function to display the plot when the plot button is clicked
 
 #creating buttons
 plot_btn = Button(root, text = "Show Plot")
 plot_btn.place(x = 0, y = 60)
-file_btn = Button(root, text = "Import File")
+file_btn = Button(root, text = "Import File",command = open_file)
 file_btn.place(x = 0, y = 30)
 #running the GUI until the user closes it
 root.mainloop()
