@@ -11,13 +11,13 @@ Student groups will create a comprehensive interactive data analysis and modelin
 The platform will tackle the problem of voice intelligibility in enclosed spaces that can be disruptive to hearing and learning. Large enclosed spaces, if not properly treated, may induce long reverberation times.
 
 ## Requirements
-
+```
+pip install -r requirements.txt
+```
 
 ## Installation
 ```
 git clone https://github.com/jr-cho/SPIDAM_Python.git
-
-pip install -r requirements.txt
 ```
 
 ## Usage
