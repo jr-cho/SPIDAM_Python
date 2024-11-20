@@ -1,7 +1,7 @@
 # Natasha's File
 from pydub import AudioSegment
 
-m4a_file = 'sample-1.m4a'
+m4a_file = './data/clap.m4a'
 wav_filename = 'output.wav'
 
 def convert(m4a_file): 
