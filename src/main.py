@@ -3,4 +3,4 @@ from src.gui import *
 from src.plot import *
 
 # if __name__ == "__main__":
-# convert(clap.m4a, clap.wav)
+# convert(clap.m4a)
