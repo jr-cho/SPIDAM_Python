@@ -4,3 +4,5 @@ from src.plot import *
 
 # if __name__ == "__main__":
 # convert(clap.m4a)
+# gui()
+# plot()
