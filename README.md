@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Tree
 ```
 SPIDAM
-    ├── Readme.md
+    ├── README.md
     ├── requirements.txt
     ├── setup.py
     └── src
