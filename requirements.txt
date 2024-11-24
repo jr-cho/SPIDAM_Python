@@ -2,3 +2,4 @@ tk
 numpy
 matplotlib
 pydub
+wave

@@ -4,6 +4,7 @@ from tkinter import filedialog
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
 #creating the tinker GUI
 root = Tk()
 #creating the settings for the title and size
