@@ -2,9 +2,10 @@
 import os
 from pydub import AudioSegment
 
-m4a_file = './data/clap.m4a'
-wav_filename = 'output.wav'
 
-def convert(m4a_file): 
-    sound = AudioSegment.from_file(m4a_file, format='m4a')
-    file_handle = sound.export(wav_filename, format='wav')
+def convert_to_wav(input_path, output_path=None):
+    if not output_path:
+        output_path = os.path.splitext(input_path)[0] + ".wav"
+    audio = AudioSegment.from_file(input_path)
+    audio.export(output_path, format="wav")
+    return output_path
