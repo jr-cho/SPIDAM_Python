@@ -1,4 +1,5 @@
 # Natasha's File
+import os
 from pydub import AudioSegment
 
 m4a_file = './data/clap.m4a'
