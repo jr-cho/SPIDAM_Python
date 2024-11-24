@@ -21,7 +21,9 @@ git clone https://github.com/jr-cho/SPIDAM_Python.git
 ```
 
 ## Usage
-
+```
+python main.py
+```
 
 ## Demo
 ![SPIDAM Demo](demo/Demo.gif)
