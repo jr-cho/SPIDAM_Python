@@ -24,7 +24,7 @@ git clone https://github.com/jr-cho/SPIDAM_Python.git
 
 
 ## Demo
-
+![SPIDAM Demo](demo/Demo.gif)
 
 ## Tree
 ```
