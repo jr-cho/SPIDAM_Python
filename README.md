@@ -25,20 +25,20 @@ git clone https://github.com/jr-cho/SPIDAM_Python.git
 python main.py
 ```
 
-## Demo
-![SPIDAM Demo](demo/Demo.gif)
 
 ## Tree
 ```
 SPIDAM
     ├── README.md
     ├── requirements.txt
-    ├── setup.py
+    ├── main.py
+    ├── data
+        ├── clap.m4a
+        └── clap.wav
     └── src
         ├── __init__.py
         ├── file_utils.py
         ├── gui.py
-        ├── main.py
         └── plot.py
 ```
 ## License
